@@ -1,0 +1,160 @@
+body{
+	margin: 0px;
+}
+
+#div_all{
+	width: 99%;
+	height: 1500px;
+	font-family: "Roboto","Arial",sans-serif;
+	font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+#div_blank{
+	width: 100%;
+	height: 50px;
+}
+
+/* Div Top */
+#div_top{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 99;
+}
+
+#div_top > .left{
+	width: 636px;
+	height: 100%;
+	float: left;
+}
+
+#div_top > .center{
+	width: 1100px;
+	height: 100%;
+	float: left;
+}
+
+#div_top > .right{
+	width: 147px;
+	height: 100%;
+	float: left;
+}
+
+.icon_title{
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+}
+
+.logo{
+	width: 90px;
+	height: 20px;
+	padding-left: 16px;
+	padding-bottom: 10px;
+}
+
+.search{
+	width: 580px;
+	height: 40px;
+	margin-top: 4px;
+	padding-left: 10px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 1px solid lightgray;
+	float: left;
+}
+
+.avatar{
+	width: 30px;
+	height: 30px;
+	margin: 7px;
+	border-radius: 50%;
+}
+
+/* Div Bottom */
+#div_bottom{
+	width: 100%;
+	height: 100%;
+}
+
+#div_bottom > .left{
+	width: 100px;
+	height: 958px;
+	background: white;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.icon_left{
+	width: 64px;
+	height: 44px;
+	padding: 16px 0px 8px 4px;
+}
+
+#div_bottom > .right{
+	width: 1783px;
+	height: 1500px;
+	position: relative;
+	left: 100px;
+}
+
+#div_bottom > .right > .top{
+	width: 94%;
+	height: 140px;
+	background: white;
+	position: fixed;
+	z-index: 98;
+}
+
+.margin_top{
+	margin-top: 75px;
+}
+
+.suggest_button{
+	align-items: center;
+	color: rgb(15, 15, 15);
+	padding: 7px 12px 7px 12px;
+	margin-left: 15px;
+}
+
+#div_bottom > .right > .center{
+	width: 100%;
+	height: 50%;
+	border-bottom: 3px solid lightgray;
+}
+
+#div_bottom > .right > .bottom{
+	width: 100%;
+	height: 50%;
+}
+
+.video{
+	width: 340px;
+	height: 205px;
+	margin-top: 140px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.icon_shorts{
+	width: 24px;
+	height: 24px;
+	margin: 30px 10px 0px 10px;
+	float: left;
+}
+
+.shorts{
+	width: 161px;
+	height: 286px;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+a:link{
+	text-decoration: none;
+}
