@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<form autocomplete='off' class='form'>
+		<div class='control'>
+			<h1>
+				Tinh luong
+			</h1>
+		</div>
+		<div class='control block-cube block-input' style="float: left;">
+			<input name='nhap_luong' placeholder='Nhap luong(TRIEU)' type='number' id="input_luong">
+			<div class='bg-top'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg-right'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg'>
+				<div class='bg-inner'></div>
+			</div>
+		</div>
+		<div class='control block-cube block-input' style="float: left; width: 100px;">
+			<input name='vnd' type='text' value="VND" readonly>
+			<div class='bg-top'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg-right'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg'>
+				<div class='bg-inner'></div>
+			</div>
+		</div>
+		<button class='btn block-cube block-cube-hover' type='button' onclick="print()">
+			<div class='bg-top'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg-right'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='text'>
+				Ket Qua
+			</div>
+		</button>
+		<font class='btn block-cube block-cube-hover'>
+			<div class='bg-top'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg-right'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class='bg'>
+				<div class='bg-inner'></div>
+			</div>
+			<div class="text" id="ket_qua">Luong:</div>
+		</font>
+	</form>
+	<script src="myscripts.js"></script>
+</body>
+</html>
