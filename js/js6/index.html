@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loop & Input</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="div_all">
+		<h1>PHÁT SINH MẢNG VÀ TÍNH TOÁN</h1>
+		<form onsubmit="return false">
+			Nhập số phần tử:
+			<input type="number" id="input_number" style="width: 30%" autofocus>
+			<button type="button" onclick="calculate()" id="myBtn">Phát sinh và tính toán</button>
+		</form>
+		<table width="75%" style="text-align: center;">
+			<tr>
+				<td>Mảng:</td>
+				<td><input type="text" id="array" disabled></td>
+			</tr>
+			<tr>
+				<td>Max:</td>
+				<td><input type="text" id="max" disabled></td>
+			</tr>
+			<tr>
+				<td>Min:</td>
+				<td><input type="text" id="min" disabled></td>
+			</tr>
+			<tr>
+				<td>Tổng mảng:</td>
+				<td><input type="text" id="sum" disabled></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					(<font color="red">Ghi chú:</font> Các phần tử
+					trong mảng sẽ có giá trị từ 0 đến 20)
+				</td>
+			</tr>
+		</table>
+		<div id="ket_qua"></div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
