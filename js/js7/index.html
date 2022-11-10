@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Validate Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="div_all">
+		<div id="div_top">
+			<h1>Validate Form</h1>
+		</div>
+		<div id="div_bot">
+			<form>
+				<div class="input_display">
+					<p class="title">Name: <span id="error_name" class="error"></span></p>
+					<input type="text" id="name" class="data_input" placeholder="Your name">
+				</div>
+				<div class="input_display">
+					<p class="title">Gender: <span id="error_gender" class="error"></span></p>
+					<input type="radio" name="gender">Female  
+					<input type="radio" name="gender">Male
+					<input type="radio" name="gender">Custom
+				</div>
+				<div class="input_display">
+					<p class="title">Address: <span id="error_address" class="error"></span></p>
+					<input type="text" id="address" class="data_input" placeholder="Your address">
+				</div>
+				<div class="input_display">
+					<p class="title">Email: <span id="error_email" class="error"></span></p>
+					<input type="Email" id="email" class="data_input" placeholder="Email address">
+				</div>
+				<div class="input_display">
+					<p class="title">Password: <span id="error_password" class="error"></span></p>
+					<input type="Password" id="password" class="data_input" placeholder="New password">
+				</div>
+				<div class="input_display">
+					<p class="title">Hobbies(optional): <span id="error_hobbie" class="error"></span></p>
+					<input type="text" id="hobbie" class="data_input" placeholder="Ex: game, soccer, swimming etc">
+				</div>
+				<div class="buttons">
+					<button type="submit" class="submit" onclick="return check()">Sign Up</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
