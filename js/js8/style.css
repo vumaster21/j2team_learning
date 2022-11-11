@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: monospace, serif;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  text-align: center;
+/*  background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+#div_all{
+  width: 500px;
+  min-height: 150px;
+  /*background: lightgray;*/
+  margin: 50px auto;
+}
+
+#div_top{
+  width: 100%;
+  height: 10%;
+  background: lightskyblue;
+}
+
+#div_bot{
+  background: lavender;
+  text-align: left;
+  padding: 8px 20px 15px 15px;
+}
+
+
+.data_input{
+  height: 35px;
+  width: 100%;
+  outline: none;
+  padding: 4px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.submit{
+  background: #00a400;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 32px;
+  margin: 10px 0px;
+}
+
+.submit:hover{
+  opacity: 0.5;
+}
+
+.error{
+  color: red;
+}
+
