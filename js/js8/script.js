@@ -8,7 +8,7 @@ input.addEventListener("keypress", function(event) {
 
 function check(){
 	let link = document.getElementById('link').value;
-	let regex_id = /^(?:https:\/\/www\.facebook\.com\/)(?:groups\/)?(?:profile.php\?id=)?(\w+(?:\.\w+)?)\/?$/;
+	let regex_id = /^(?:(?:(?:https|http):\/\/(?:www|m)\.)?facebook\.com\/)(?:groups\/)?(?:profile.php\?id=)?(\w+(?:\.\w+)?)\/?$/;
 	let id = link.match(regex_id);
 
 	if(link.length === 0){
